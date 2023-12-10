@@ -5,8 +5,8 @@ import java.util.Date;
 
 public class Pest {
 
-  private long pestId;
-  private long adminId;
+  private int pestId;
+  private int adminId;
   private Date createTime;
   private Date updateTime;
   private String name;
@@ -17,7 +17,7 @@ public class Pest {
     return pestId;
   }
 
-  public void setPestId(long pestId) {
+  public void setPestId(int pestId) {
     this.pestId = pestId;
   }
 
@@ -26,7 +26,7 @@ public class Pest {
     return adminId;
   }
 
-  public void setAdminId(long adminId) {
+  public void setAdminId(int adminId) {
     this.adminId = adminId;
   }
 
