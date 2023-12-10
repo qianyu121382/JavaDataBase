@@ -3,20 +3,8 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="book.dao.UserDao">
-    <!--判断用户的账号是否存在-->
-    <select id="UsernameIsExisted" resultType="int" parameterType="String">
-        select count(*) from user where username=#{username}
-    </select>
     <!--判断用户的密码是否正确-->
-    <select id="PasswordIsERROR" resultType="int" parameterType="map">
-        select count(*) from user where username=#{username} and password=#{password}
-    </select>
-    <!--获取用户ID-->
-    <select id="GetUserId" resultType="int" parameterType="String">
-        select id from user where username=#{username}
-    </select>
-    <!--获取用户身份-->
-    <select id="GetUserRole" resultType="String" parameterType="int">
-        select role from user where id=#{id}
+    <select id="UserLoginStatus" resultType="User">
+        select * from user where username=#{username} and password=#{password}
     </select>
 </mapper>
