@@ -3,24 +3,24 @@ package book.entity.Mapping;
 
 public class PestMethod {
 
-  private long methodId;
-  private long pestId;
+  private int methodId;
+  private int pestId;
 
 
-  public long getMethodId() {
+  public int getMethodId() {
     return methodId;
   }
 
-  public void setMethodId(long methodId) {
+  public void setMethodId(int methodId) {
     this.methodId = methodId;
   }
 
 
-  public long getPestId() {
+  public int getPestId() {
     return pestId;
   }
 
-  public void setPestId(long pestId) {
+  public void setPestId(int pestId) {
     this.pestId = pestId;
   }
 

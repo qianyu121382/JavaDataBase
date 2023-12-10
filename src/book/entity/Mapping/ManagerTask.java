@@ -4,28 +4,28 @@ import java.util.Date;
 
 public class ManagerTask {
 
-    private long taskId;
-    private long superiorId;
+    private int taskId;
+    private int superiorId;
     private String type;
-    private long id;
+    private int id;
     private Date updateTime;
     private Date createTime;
 
 
-    public long getTaskId() {
+    public int getTaskId() {
         return taskId;
     }
 
-    public void setTaskId(long taskId) {
+    public void setTaskId(int taskId) {
         this.taskId = taskId;
     }
 
 
-    public long getSuperiorId() {
+    public int getSuperiorId() {
         return superiorId;
     }
 
-    public void setSuperiorId(long superiorId) {
+    public void setSuperiorId(int superiorId) {
         this.superiorId = superiorId;
     }
 
@@ -39,11 +39,11 @@ public class ManagerTask {
     }
 
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

@@ -2,24 +2,24 @@ package book.entity.Mapping;
 
 public class DeviceIndicator {
 
-    private long deviceId;
-    private long indicatorId;
+    private int deviceId;
+    private int indicatorId;
 
 
-    public long getDeviceId() {
+    public int getDeviceId() {
         return deviceId;
     }
 
-    public void setDeviceId(long deviceId) {
+    public void setDeviceId(int deviceId) {
         this.deviceId = deviceId;
     }
 
 
-    public long getIndicatorId() {
+    public int getIndicatorId() {
         return indicatorId;
     }
 
-    public void setIndicatorId(long indicatorId) {
+    public void setIndicatorId(int indicatorId) {
         this.indicatorId = indicatorId;
     }
 
