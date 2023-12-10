@@ -3,15 +3,15 @@ package book.entity.Mapping;
 
 public class SpeciesPest {
 
-  private long speciesId;
-  private long pestId;
+  private int speciesId;
+  private int pestId;
 
 
-  public long getSpeciesId() {
+  public int getSpeciesId() {
     return speciesId;
   }
 
-  public void setSpeciesId(long speciesId) {
+  public void setSpeciesId(int speciesId) {
     this.speciesId = speciesId;
   }
 
@@ -20,7 +20,7 @@ public class SpeciesPest {
     return pestId;
   }
 
-  public void setPestId(long pestId) {
+  public void setPestId(int pestId) {
     this.pestId = pestId;
   }
 

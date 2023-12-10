@@ -3,34 +3,34 @@ package book.entity.Mapping;
 
 public class MethodDrug {
 
-  private long drugNumber;
-  private long drugId;
-  private long methodId;
+  private int drugNumber;
+  private int drugId;
+  private int methodId;
 
 
-  public long getDrugNumber() {
+  public int getDrugNumber() {
     return drugNumber;
   }
 
-  public void setDrugNumber(long drugNumber) {
+  public void setDrugNumber(int drugNumber) {
     this.drugNumber = drugNumber;
   }
 
 
-  public long getDrugId() {
+  public int getDrugId() {
     return drugId;
   }
 
-  public void setDrugId(long drugId) {
+  public void setDrugId(int drugId) {
     this.drugId = drugId;
   }
 
 
-  public long getMethodId() {
+  public int getMethodId() {
     return methodId;
   }
 
-  public void setMethodId(long methodId) {
+  public void setMethodId(int methodId) {
     this.methodId = methodId;
   }
 

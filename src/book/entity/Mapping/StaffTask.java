@@ -5,9 +5,9 @@ import java.util.Date;
 
 public class StaffTask {
 
-  private long taskId;
-  private long staffId;
-  private long id;
+  private int taskId;
+  private int staffId;
+  private int id;
   private String type;
   private Date startTime;
   private Date lastTime;
@@ -15,29 +15,29 @@ public class StaffTask {
   private String status;
 
 
-  public long getTaskId() {
+  public int getTaskId() {
     return taskId;
   }
 
-  public void setTaskId(long taskId) {
+  public void setTaskId(int taskId) {
     this.taskId = taskId;
   }
 
 
-  public long getStaffId() {
+  public int getStaffId() {
     return staffId;
   }
 
-  public void setStaffId(long staffId) {
+  public void setStaffId(int staffId) {
     this.staffId = staffId;
   }
 
 
-  public long getId() {
+  public int getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(int id) {
     this.id = id;
   }
 

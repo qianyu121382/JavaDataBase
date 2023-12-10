@@ -3,36 +3,36 @@ package book.entity.Mapping;
 
 public class MonitorResult {
 
-  private long taskId;
-  private long indicatorId;
-  private long deviceId;
+  private int taskId;
+  private int indicatorId;
+  private int deviceId;
   private double result;
   private String abnormalStatus;
 
 
-  public long getTaskId() {
+  public int getTaskId() {
     return taskId;
   }
 
-  public void setTaskId(long taskId) {
+  public void setTaskId(int taskId) {
     this.taskId = taskId;
   }
 
 
-  public long getIndicatorId() {
+  public int getIndicatorId() {
     return indicatorId;
   }
 
-  public void setIndicatorId(long indicatorId) {
+  public void setIndicatorId(int indicatorId) {
     this.indicatorId = indicatorId;
   }
 
 
-  public long getDeviceId() {
+  public int getDeviceId() {
     return deviceId;
   }
 
-  public void setDeviceId(long deviceId) {
+  public void setDeviceId(int deviceId) {
     this.deviceId = deviceId;
   }
 
