@@ -1,11 +1,10 @@
 package book.entity.JavaBean;
 
 
-public class Drug {
+public class Device {
 
   private long id;
   private String name;
-  private java.sql.Date expiryDate;
   private String other;
 
 
@@ -24,15 +23,6 @@ public class Drug {
 
   public void setName(String name) {
     this.name = name;
-  }
-
-
-  public java.sql.Date getExpiryDate() {
-    return expiryDate;
-  }
-
-  public void setExpiryDate(java.sql.Date expiryDate) {
-    this.expiryDate = expiryDate;
   }
 
 
