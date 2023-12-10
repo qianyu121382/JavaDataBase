@@ -18,7 +18,7 @@
     <!--      mybatis配置         -->
     <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://101.201.51.225:3306/homework?characterEncoding=utf8"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/homework?characterEncoding=utf8"/>
         <property name="username" value="root"/>
         <property name="password" value="123456"/>
     </bean>
