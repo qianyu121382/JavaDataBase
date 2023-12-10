@@ -5,10 +5,10 @@ public class Image {
 
   private String name;
   private String person;
-  private long number;
+  private int number;
   private String other;
   private String place;
-  private long plantId;
+  private int plantId;
 
 
   public String getName() {
@@ -29,11 +29,11 @@ public class Image {
   }
 
 
-  public long getNumber() {
+  public int getNumber() {
     return number;
   }
 
-  public void setNumber(long number) {
+  public void setNumber(int number) {
     this.number = number;
   }
 
@@ -56,11 +56,11 @@ public class Image {
   }
 
 
-  public long getPlantId() {
+  public int getPlantId() {
     return plantId;
   }
 
-  public void setPlantId(long plantId) {
+  public void setPlantId(int plantId) {
     this.plantId = plantId;
   }
 

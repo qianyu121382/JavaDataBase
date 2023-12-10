@@ -3,18 +3,18 @@ package com.sample;
 
 public class Task {
 
-  private long id;
+  private int id;
   private String other;
   private String name;
   private String place;
-  private long plantId;
+  private int plantId;
 
 
-  public long getId() {
+  public int getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(int id) {
     this.id = id;
   }
 
@@ -46,11 +46,11 @@ public class Task {
   }
 
 
-  public long getPlantId() {
+  public int getPlantId() {
     return plantId;
   }
 
-  public void setPlantId(long plantId) {
+  public void setPlantId(int plantId) {
     this.plantId = plantId;
   }
 
